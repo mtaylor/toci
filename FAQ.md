@@ -13,6 +13,7 @@ A. $ ssh heat-admin@192.0.2.2
 
 **Q. How do I list the nodes making up the overcloud**
 
+    $ export UNDERCLOUD_IP=192.0.2.2
     $ . undercloudrc 
     $ nova list
 
